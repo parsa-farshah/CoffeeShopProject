@@ -45,7 +45,7 @@ export default function Navbar() {
               {Menus.map((data) => (
                 <li key={data.id}>
                   <a
-                    className="text-white/80 text-sm md:text-xl font-medium font-oswald"
+                    className="text-white/80 text-xs md:text-xl font-medium font-oswald"
                     href={data.href} // لینک به id مقصد
                   >
                     {data.title}
