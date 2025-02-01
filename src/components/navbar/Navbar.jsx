@@ -22,7 +22,7 @@ const Menus = [
 
 export default function Navbar() {
   return (
-    <div className="bg-gradient-to-t from-amber-950 to-amber-900">
+    <div id="home" className="bg-gradient-to-t from-amber-950 to-amber-900">
       <div className="px-2 md:py-3 md:px-8">
         <div className="flex justify-between">
           {/* قسمت لوگو */}
@@ -53,10 +53,10 @@ export default function Navbar() {
                 </li>
               ))}
             </ul>
-            <button className="text-white w-[80px] md:w-[150px] text-sm font-oswald md:text-3xl md:font-medium bg-yellow-950 p-1 md:p-4 rounded-xl md:rounded-3xl flex justify-between items-center hover:scale-105 duration-500">
+            <a href="#order" className="text-white w-[80px] md:w-[150px] text-sm font-oswald md:text-3xl md:font-medium bg-yellow-950 p-1 md:p-4 rounded-xl md:rounded-3xl flex justify-between items-center hover:scale-105 duration-500">
               Order
               <CiCoffeeCup size={30} />
-            </button>
+            </a>
           </div>
         </div>
       </div>
