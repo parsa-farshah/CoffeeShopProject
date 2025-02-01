@@ -29,7 +29,7 @@ export default function Services() {
   return (
     <div
       id="services"
-      className="bg-white w-full flex flex-col items-center py-10"
+      className="bg-amber-100 w-full flex flex-col items-center py-10"
     >
       <h1 className="playwrite text-gray-800 text-xl md:text-4xl font-bold">
         Best Coffee For You{" "}

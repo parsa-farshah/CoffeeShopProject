@@ -6,8 +6,11 @@ import { MdOutlineSevereCold } from "react-icons/md";
 
 export default function Premium() {
   return (
-    <div className="w-full h-auto bg-gradient-to-r pb-4 from-amber-950 to-amber-800 flex justify-center items-center place-content-center">
-      <div className="w-[100%] md:w-[60%] grid grid-cols-3 place-items-center md:gap-8 mt-16 ">
+    <div
+      id="order"
+      className="w-full h-auto bg-gradient-to-r py-5 from-amber-950 to-amber-800 flex justify-center items-center place-content-center"
+    >
+      <div className="w-[100%] md:w-[60%] grid grid-cols-3 place-items-center md:gap-8 pt-16 ">
         {/* left section */}
         <div className="col-span-1 ">
           <img
