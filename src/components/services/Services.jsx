@@ -31,7 +31,7 @@ export default function Services() {
       id="services"
       className="bg-white w-full flex flex-col items-center py-10"
     >
-      <h1 className="font-playwrite text-gray-800 text-xl md:text-4xl font-bold">
+      <h1 className="playwrite text-gray-800 text-xl md:text-4xl font-bold">
         Best Coffee For You{" "}
       </h1>
       <div className="flex w-[80%] justify-between pt-20">
