@@ -9,7 +9,7 @@ export default function Header() {
         <div className="py-20 ml-4 md:ml-10 basis-1/2">
           <h1 className="uppercase text-white text-3xl md:text-6xl font-oswald ">
             we serve <br /> the richest <br />
-            <span className="text-yellow-700 text-2xl md:text-5xl font-bold font-playwrite pr-2">
+            <span className="text-yellow-700 text-2xl md:text-5xl font-bold playwrite pr-2">
               coffee
             </span>
             in the <br /> city

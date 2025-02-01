@@ -28,7 +28,7 @@ export default function Navbar() {
           {/* قسمت لوگو */}
           <div>
             <a
-              className="text-white text-xs md:text-xl font-playwrite font-extrabold flex items-center"
+              className="text-white text-xs md:text-xl playwrite font-extrabold flex items-center"
               href="#"
             >
               <img
