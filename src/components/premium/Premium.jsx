@@ -12,7 +12,11 @@ export default function Premium() {
     >
       <div className="w-[100%] md:w-[60%] grid grid-cols-3 place-items-center md:gap-8 pt-16 ">
         {/* left section */}
-        <div className="col-span-1 ">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="500"
+          className="col-span-1 "
+        >
           <img
             className="w-[180px] md:w-[250px] duration-500"
             src={caffePremium}
@@ -20,7 +24,11 @@ export default function Premium() {
           />
         </div>
         {/* right section */}
-        <div className="col-span-2 p-4">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="500"
+          className="col-span-2 p-4"
+        >
           {/* first Premium text */}
           <div>
             <h1 className="font-extralight playwrite text-lg md:text-3xl text-white">
@@ -86,8 +94,6 @@ export default function Premium() {
               </h1>
               <p className="text-xs md:text-sm text-white/30 font-bebas mt-2 md:mt-5">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque,
-                consectetur fugiat ratione earum ipsum ab molestiae, repellat
-                debitis
               </p>
             </div>
           </div>

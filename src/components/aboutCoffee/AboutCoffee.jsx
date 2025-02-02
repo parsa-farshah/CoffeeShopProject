@@ -9,8 +9,6 @@ export default function AboutCoffee() {
     setReadMoreClick(!readMoreClick);
   }
 
-  console.log(readMoreClick);
-
   const readMore = (str, num) => {
     if (str.length > num) {
       return str.substr(0, num) + "...";
@@ -65,13 +63,19 @@ export default function AboutCoffee() {
     slidesToScroll: 1,
   };
   return (
-    <div id="about" className="w-full h-auto bg-gradient-to-l from-amber-950 to-amber-800 flex flex-col justify-center items-center py-20">
+    <div
+      id="about"
+      className="w-full h-auto bg-gradient-to-l from-amber-950 to-amber-800 flex flex-col justify-center items-center py-20"
+    >
       <div>
-        <h1 className="text-5xl md:text-8xl font-bebas text-amber-100">
+        <h1
+          data-aos="flip-down"
+          className="text-5xl md:text-8xl font-bebas text-amber-100"
+        >
           About Cafe
         </h1>
       </div>
-      <div className="w-[80%] md:w-[70%] mt-6">
+      <div data-aos="zoom-in-up" className="w-[80%] md:w-[70%] mt-6">
         <Slider {...settings}>
           {aboutCafe.map((data, id) => (
             <div className="flex justify-between " key={data.id}>

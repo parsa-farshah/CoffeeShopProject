@@ -31,10 +31,19 @@ export default function Services() {
       id="services"
       className="bg-amber-100 w-full flex flex-col items-center py-10"
     >
-      <h1 className="playwrite text-gray-800 text-xl md:text-4xl font-bold">
+      <h1
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+        className="playwrite text-gray-800 text-xl md:text-4xl font-bold"
+      >
         Best Coffee For You{" "}
       </h1>
-      <div className="flex w-[80%] justify-between pt-20">
+      <div
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000"
+        className="flex w-[80%] justify-between pt-20"
+      >
         {/* نمایش کارت‌های خدمات */}
         {servicesData.map((data) => (
           <div
@@ -46,7 +55,9 @@ export default function Services() {
               src={data.img}
               alt={data.nameCoffe}
             />
-            <h1 className="text-sm md:text-2xl text-start font-extrabold">{data.nameCoffe}</h1>
+            <h1 className="text-sm md:text-2xl text-start font-extrabold">
+              {data.nameCoffe}
+            </h1>
             <p className="text-xs md:text-lg   text-gray-400 pt-5 p-5 text-center font-medium">
               {data.about}
             </p>
