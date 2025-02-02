@@ -8,7 +8,11 @@ import { FaWhatsapp } from "react-icons/fa";
 export default function Footer() {
   return (
     <div className="w-full bg-amber-100 py-8">
-      <div className="grid grid-cols-4 p-8 gap-4">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        className="grid grid-cols-4 p-8 gap-4"
+      >
         {/* Coffee Cafe */}
         <div>
           <h1 className="playwrite text-sm  md:text-4xl text-amber-800">
@@ -27,7 +31,7 @@ export default function Footer() {
         </div>
         {/* Footer links  */}
         <div>
-          <h1 className="text-xl md:text-4xl text-amber-900/80 font-bebas hover:text-amber-950/80 duration-300 cursor-pointer">
+          <h1 className="text-sm md:text-4xl text-amber-900/80 font-bebas hover:text-amber-950/80 duration-300 cursor-pointer">
             Footer Links
           </h1>
           <ul className="mt-5 text-lg md:text-2xl text-amber-900/80 font-bebas">
@@ -47,7 +51,7 @@ export default function Footer() {
         </div>
         {/* Quick Links */}
         <div>
-          <h1 className=" text-xl md:text-4xl text-amber-900/80 font-bebas hover:text-amber-950/80 duration-300 cursor-pointer">
+          <h1 className="text-sm md:text-4xl text-amber-900/80 font-bebas hover:text-amber-950/80 duration-300 cursor-pointer">
             Quick Links
           </h1>
           <ul className="mt-5 text-lg md:text-2xl text-amber-900/80 font-bebas">
@@ -67,10 +71,10 @@ export default function Footer() {
         </div>
         {/* Address */}
         <div>
-          <h1 className=" text-xl md:text-4xl text-amber-900/80 font-bebas hover:text-amber-950/80 duration-300 cursor-pointer">
+          <h1 className="text-sm md:text-4xl text-amber-900/80 font-bebas hover:text-amber-950/80 duration-300 cursor-pointer">
             Address
           </h1>
-          <ul className="mt-5 text-sm md:text-2xl text-amber-900/80 font-bebas">
+          <ul className="mt-5 text-xs md:text-2xl text-amber-900/80 font-bebas">
             <li className="hover:text-amber-950/90 duration-300 cursor-pointer">
               <a className="flex gap-1" href="#">
                 <FaMountainCity />
